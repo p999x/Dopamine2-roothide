@@ -1,0 +1,40 @@
+    1  git --version
+    2  git config --global user.name
+    3  git config --global user.email
+    4  cd C:\Users\israelpl\Documents\NetBeansProjects\examenUD4CD
+    5  cd /Users/israelpl
+    6  cd C:/Users/israelpl
+    7  ls
+    8  cd Documents/NetBeansProjects
+    9  ls
+   10  cd examenUD4CD
+   11  ls
+   12  git init
+   13  commit "Proyecto Factura - versión inicial refactorizada"
+   14  git commit "Proyecto Factura - versión inicial refactorizada"
+   15  git add
+   16  git add .
+   17  git commit "Proyecto Factura - versión inicial refactorizada"
+   18  git add .gitignore
+   19  git add src/
+   20  git commit -m "Proyecto Factura - versión inicial refactorizada"
+   21  git log --oneline
+   22  cd C:/Users/israelpl/Documents/netbeansprojects
+   23  ls
+   24  cd examenud4cd
+   25  git add src/
+   26  git checkout -b feature/mejora-validacion
+   27  git add .
+   28  git commmit -m "feat: añade validacion de importe negativo"
+   29  git commit -m "feat: añade validacion de importe negativo"
+   30  git checkout main
+   31  git log --oneline --all --graph
+   32  git remote add origin https://github.com/p999x/examen-isra.git
+   33  git push -u origin main
+   34  git push -u origin feature/mejora-validacion
+   35  git push -u origin main
+   36  git push -u origin feature/mejora-validacion
+   37  git add .
+   38  history
+   39  cd /c/Users/israelpl/Desktop/git
+   40  history > history.txt
